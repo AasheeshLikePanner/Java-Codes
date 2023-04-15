@@ -23,7 +23,8 @@ class dog extends animal{
 class Main{
 
     public static void main(String[] args) {
-        System.out.println(Math.abs( - 1 - (-3)));
+        int n = 1;
+        System.out.println((int) (Math.log10(n) + 1));
     }
 
 }
