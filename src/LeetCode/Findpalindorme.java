@@ -21,7 +21,7 @@ public class Findpalindorme {
                 list.add((int)i);
                 if (i % 10 == 9) {
                     String s = String.valueOf(val);
-                    int val =
+//                    int val =
                     s.replace('9', '1');
                     s = s.substring(0, 1) + '0' + s.substring(1);
                     val = (int) Long.parseLong(s);
