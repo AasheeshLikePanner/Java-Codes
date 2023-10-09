@@ -5,6 +5,7 @@ public class ArrayInto2DArray {
     public static void main(String[] args) {
         int[] nums = {1,3,4,1,2,3,1};
         System.out.println(findMatrix(nums));
+        System.out.println("This is change");
     }
     public static List<List<Integer>> findMatrix(int[] nums) {
         List<List<Integer>> outer = new ArrayList<>();
